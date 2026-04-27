@@ -2,7 +2,7 @@
   "name": "claude-code-unspinner",
   "displayName": "Claude Code Unspinner",
   "description": "Enables changing spinnerVerbs for claude code the same way that the CLI app does.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.116.0"
   },
@@ -11,6 +11,11 @@
   ],
   "extensionDependencies": ["anthropic.claude-code"],
   "activationEvents": ["onStartupFinished"],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentin-baron/vscode-claude-code-unspinner"
+  },
   "main": "./dist/extension.js",
   "contributes": {
     "configuration": {
